@@ -1,0 +1,67 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/ProductDetails.css">
+    <title>Product Details</title>
+</head>
+
+<body>
+
+
+<section id="About" class=" p-4">
+    <div class="container">
+        <div class="d-flex justify-content-center " >
+            <h1 class="Head">PRODUCT SUMMARY</h1>
+        </div>
+        <!-- border border-success -->
+        <div class="row no-gutters">
+            <div class="col-lg-6  ">
+                <div class="container d-flex justify-content-center " >
+                    <img class=" w-100 h-100 m-3 d-flex justify-content-center " src="image/biriyani-1.jpg" alt="..." id="imageItem">
+                </div>
+            </div>
+            <div class="col-lg-6 ">
+                <div class="card-body " >
+                    <h5 class="card-title d-flex justify-content-center about-title" id="productName"></h5>
+                    <p class="card-text pl-3 " id="productDisc"></p>
+                    <p class="Price d-flex justify-content-center mt-4">Price : $<span id="priceValue"></span></p>
+                        <div class="row  d-flex justify-content-center ">
+                            <div class="col   Quantity  btn btn-danger pl-2" style="display: inline-block;">
+                                <span class="btn btn-outline-white border-right w-sm-25 " onclick="Decrement()" id="minus">-</span>
+                                <span class="btn btn-outline-white w-sm-25 " id="num">0</span>
+                                <span class="btn btn-outline-white border-left w-sm-25" onclick="increment()" id="plus">+</span>
+                                
+                            </div>
+                            <div class="col   btn  ml-2 " style="background-color: rgba(61, 60, 60, 0.897);">
+                                 <span class="Total">Total <span>:</span></span>
+                                <span class="totalamount" id="totalamount">0</span>
+                            </div>
+                           
+                        </div>
+                        <div>
+                            <span class="maxlimit" id="maxlimit">Reach Max limited </span>
+                        </div>
+                        <div class="card mt-4 d-flex justify-content-center">
+                            <a href="AddToCart.html" class="btn btn-primary w-100" onclick="passvalue()">ADD TO CART</a>
+                        </div>
+                    
+                </div>
+            </div>
+                
+        </div>
+        </d>
+    </div>
+</section>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/shoping.js"></script>
+
+</body>
+
+</html>

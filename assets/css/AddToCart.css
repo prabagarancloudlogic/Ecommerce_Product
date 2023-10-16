@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+background-color: cornflowerblue;
+}
+
+.Head{
+    color: rgb(94, 10, 173);
+    font-size: 25px;
+    font-weight: bold;
+}
+.box1{
+    border-radius: 20px;
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+}
+.card-title{
+    color: rgb(209, 101, 137);
+}
+#pName{
+    color: rgb(236, 136, 43);
+    font-size: 22px;
+}
+#pDiscrib{
+    color: rgb(236, 136, 43);
+    font-size: 17px;text-align: justify;
+}
+#Quantity{
+    color: rgb(236, 136, 43);
+    font-size: 22px;
+}
+#TotalAmount{
+    color: rgb(236, 136, 43);
+    font-size: 22px;
+}
+#imageItem{
+    border: 10px solid orange;
+}

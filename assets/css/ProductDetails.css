@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+}
+.container{
+ background: radial-gradient(circle at 10% 20%, rgb(161, 255, 206) 0%, rgb(250, 255, 209) 90%);
+
+}
+.Head{
+    color: brown;
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.about-title{
+    font-size: 25px;
+    font-weight: 700;
+}
+.card-text{
+    font-size: 20px;
+    text-align: justify;
+}
+.Price {
+    font-size: 28px;
+    color: brown;
+}
+.Total{
+    font-size: 20px;
+    color: white;
+}
+.totalamount{
+    font-size: 20px;
+    color: white;
+}
+
+.maxlimit{
+    visibility: hidden;
+    color: red;
+    font-weight: 500;
+}

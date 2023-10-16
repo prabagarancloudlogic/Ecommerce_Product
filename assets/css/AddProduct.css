@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: radial-gradient(circle at 10% 20%, rgb(128, 248, 174) 0%, rgb(223, 244, 148) 90%);
+  
+}
+.box3{
+   padding: 30px;
+   border: 2px solid rgb(133, 28, 28);
+    background: radial-gradient(circle at 10% 20%, rgb(161, 255, 206) 0%, rgb(250, 255, 209) 90%);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+}
+.Stars{
+    color: red;
+    font-size: 20px;
+}
+#Perror1 {
+  color: red;
+}
+#Derror1 {
+  color: red;
+}
+#Priceerror1 {
+  color: red;
+}
+#Plerror1 {
+  color: red;
+}
+
+#avatar {
+  display: none;
+}
+#imgerror1{
+    color: red;
+    visibility: hidden;
+}
+#imgerror2{
+    color: red;
+    visibility: hidden; 
+}
